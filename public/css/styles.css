@@ -8,6 +8,14 @@ main #section-two {
   color: green;
 }
 
+main {
+  background-color: lightcoral;
+  color: black;
+  box-shadow: 21px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
 body {
   background-color: burlywood;
 }

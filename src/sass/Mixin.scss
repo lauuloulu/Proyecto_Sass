@@ -1,0 +1,26 @@
+@mixin color-cuqui{
+    background-color: pink;
+    color: white; 
+}
+
+@mixin color-darks{
+    background-color:lightcoral;
+    color: black; 
+    box-shadow: 21px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+@mixin font{
+    font-size: 100px;
+    color: aqua;
+    background-color: black;
+}
+
+main{
+    @include color-darks()
+}
+
+body header{
+    @include font()
+}
